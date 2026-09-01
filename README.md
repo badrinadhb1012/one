@@ -136,3 +136,18 @@ Updated POM.XML file
 </project>
 ...................................................................................................................................................
 when we install java 21 , we can make sure chaneg the java version in pom.xml and we need to change near in export command in mvn command these two commands need to change.
+
+#For Java 8
+#POM : <java.version>8</java.version>
+#Jenkins: export JAVA_HOME=/path/to/java8 [Need to change in maven command running time]
+
+
+#For Java 21
+#POM: <java.version>21</java.version>
+#Jenkins: export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto.x86_64 [Need to change in maven command running time]
+
+
+#for java17
+#POM: <java.version>17</java.version>
+#Jenkins: export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64
+.................................................................................................................................................
